@@ -9,6 +9,7 @@ The test is performed using FFmpeg
 - Extract the “CheckMate” folder anywhere
 - Run Setup.bat
 -- This will copy the files to C:\CheckMate\
+
 - Add C:\CheckMate\ to you PATH
 -- Press “Windows + S”
 -- Write “env”
