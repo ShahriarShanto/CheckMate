@@ -45,7 +45,7 @@ Filter is used to look for files. in current directory + subdirectories.
 ### To check all files in the directory + subdirectories
 **`CheckMate * `** Just a star, means any file
 
-#### Note: If you give no filter, the default filter is **.mp4
+#### Note: If you give no filter, the default filter is **`*.mp4`**
 #### So it will check all MP4 files in current directory + subdirectories.
 
 #### A list of corrupted files will be at “Corrupted Files.txt”
