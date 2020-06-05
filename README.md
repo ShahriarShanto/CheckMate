@@ -11,7 +11,7 @@ Command used: `ffmpeg -v error -i "File/to/check.mp4" -f null`
 
 # Setup:
 
-- Download CheckMate v1.0.zip
+- Download [CheckMate v1.0.zip](https://github.com/ShahriarShanto/CheckMate/releases/download/v1.0/CheckMate.v1.0.zip) | [Google Drive Mirror](https://drive.google.com/uc?id=1WmyO8IMSe9QhHAcsNRfZoaBuJG-_07Eu&export=download)
 - Extract the “CheckMate” folder anywhere
 - Run Setup.bat
 	- This will copy the files to C:\CheckMate\
@@ -45,8 +45,8 @@ Filter is used to look for files. in current directory + subdirectories.
 ### To check all files in the directory + subdirectories
 **`CheckMate * `** Just a star, means any file
 
-#### Note: If you give no filter, the default filter is *.mp4.
-#### So it will check all MP4 files in the directory. Including subdirectories.
+#### Note: If you give no filter, the default filter is **.mp4
+#### So it will check all MP4 files in current directory + subdirectories.
 
 #### A list of corrupted files will be at “Corrupted Files.txt”
 
