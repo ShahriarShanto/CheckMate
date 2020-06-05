@@ -58,7 +58,8 @@ The command in the script:
 Actually it's job is to **convert the media file** to  **null** i.e. **nothing**
 
 So, **FFmpeg reads the whole file for the conversion.**
-When it finds any error in it, tells us! This is how the script works.
+
+When it finds any errors in it, tells us! This is how the script works.
 
 It may take a long time to read the whole file.
 Testing all your movies will take hours to complete!
@@ -69,7 +70,9 @@ A log file is created while testing called “CheckMate Log.txt”
 
 ### You should know:
 
-If a file is found to be corrupted according to FFmpeg, it doesn’t mean it is not useful to you. It may be played fully without any error, without any glitch in audio / video. So you don’t have to delete them all.
+If a file is found to be corrupted according to FFmpeg, it doesn’t mean it is not useful to you.
+
+It may be played fully without any error, without any glitch in audio / video. So you don’t have to delete them all.
 
 But it might have got corrupted during download, copy, re-encode, remux etc. So, you may want to do that again from the source and recheck.
 
