@@ -77,7 +77,7 @@ It may be played fully without any error, without any glitch in audio / video. S
 But it might have got corrupted during download, copy, re-encode, remux etc. So, you may want to do that again from the source and recheck.
 
 # Credits:
-- FFmpeg from https://ffmpeg.zeranoe.com/builds/
+- FFmpeg from https://www.gyan.dev/ffmpeg/builds/
 
 - FFmpeg command and basic script structure was found in StackExchange answer by **Juan Antonio Tubío**:
 https://superuser.com/a/1241089
