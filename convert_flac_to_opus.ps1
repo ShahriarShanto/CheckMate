@@ -15,7 +15,7 @@ foreach ($file in $flacFiles) {
     
     Write-Host "Converting: $relativeInputFile"
     
-    $process = Start-Process -FilePath "ffmpeg" -ArgumentList "-i `"$inputFile`" -c:a libopus -b:a 320k `"$outputFile`"" -NoNewWindow -Wait -PassThru -RedirectStandardOutput $stdLogFile -RedirectStandardError $errLogFile
+    $process = Start-Process -FilePath "ffmpeg" -ArgumentList "-hide_banner -i `"$inputFile`" -c:a libopus -b:a 320k `"$outputFile`"" -NoNewWindow -Wait -PassThru -RedirectStandardOutput $stdLogFile -RedirectStandardError $errLogFile
     
     # Append both standard output and error logs to the main log
     Add-Content -Path $logFile -Value (Get-Content $stdLogFile)
